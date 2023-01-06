@@ -43,11 +43,11 @@ function Main() {
           <h3 className="text-lg pt-8 pb-2 dark:text-neutral-50">Beautiful Designs</h3>
           <p className='py-2 text-gray-800 dark:text-neutral-200'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit semper risus at sagittis.</p>
         </div>
-        <div className="font-medium text-center shadow-lg p-10 rounded-xl my-10">
-          <i className="fa-solid fa-code fa-3x text-gray-800 py-2 dark:text-neutral-50"></i>
-          <h3 className="text-lg pt-8 pb-2 dark:text-neutral-50">Coding</h3>
-          <p className='py-2 text-gray-800 dark:text-neutral-200'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit semper risus at sagittis.</p>
-        </div>
+          <div className="font-medium text-center shadow-lg p-10 rounded-xl my-10">
+            <i className="fa-solid fa-mountain-sun fa-3x text-gray-800 py-2 dark:text-teal-50"></i>
+            <h3 className="text-lg pt-8 pb-2 dark:text-neutral-50">Coding</h3>
+            <p className='py-2 text-gray-800 dark:text-neutral-200'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit semper risus at sagittis.</p>
+          </div>
         </div>
       </section>
       <section>
