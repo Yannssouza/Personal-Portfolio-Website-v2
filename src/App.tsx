@@ -13,7 +13,7 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-neutral-900 min-h-screen">
-        <Nav changeMode={changeMode} />
+        <Nav darkMode={darkMode} changeMode={changeMode} />
         <Hero />
         <Skills3 />
         <Projects />
