@@ -7,7 +7,7 @@ function Projects() {
   return (
     <section>
       <div className="font-medium my-10">
-        <h3 className="text-2xl py-2 dark:text-neutral-50">Projects</h3>
+        <h3 className="text-2xl py-2 text-teal-600 dark:text-amber-400">Projects</h3>
         <p className="leading-8 py-2 text-gray-800 dark:text-neutral-200">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Vivamus <span className="text-teal-500 dark:text-amber-400">hendrerit</span> semper risus
           at sagittis. Aenean turpis eros, <span className="text-teal-500 dark:text-amber-400">auctor</span> at tellus
