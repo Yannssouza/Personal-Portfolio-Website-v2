@@ -4,7 +4,7 @@ import "./styles/styles.css";
 import "../font/inter.css";
 import Nav from "./Nav";
 import Hero from "./Hero";
-import Skills2 from "./Skills2";
+import Skills3 from "./Skills3";
 import Projects from "./Projects";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-neutral-900 min-h-screen">
         <Nav changeMode={changeMode} />
         <Hero />
-        <Skills2 />
+        <Skills3 />
         <Projects />
       </main>
     </div>
