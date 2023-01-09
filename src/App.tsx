@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./styles/styles.css";
 import "../font/inter.css";
-import Nav from "./Nav";
+import Nav from "./Nav2";
 import Hero from "./Hero";
 import Skills3 from "./Skills3";
 import Projects from "./Projects";

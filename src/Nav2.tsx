@@ -12,12 +12,15 @@ function Nav(props: {
   return (
     <nav className="py-10 flex items-center justify-between">
       <h1 className="text-2xl font-custom dark:text-neutral-50">Yann D'Souza</h1>
-      <div className="flex flex-row justify-center items-center gap-6">
+      <div className="flex flex-row justify-center items-center gap-2 lg:gap-4">
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white p-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-teal-600 dark:focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-100">
-            Languages
-            <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+          <Menu.Button className="inline-flex items-align w-full justify-center rounded-md p-1.5 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-teal-600 dark:focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-100">
+            <div className="flex-col justify-center items-center">
+              <span>English</span>
+              <i className="fa-solid fa-earth-americas mx-1"></i>
+              <i className="fa-solid fa-chevron-down fa-xs"></i>
+            </div>
           </Menu.Button>
         </div>
 
@@ -30,7 +33,7 @@ function Nav(props: {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <Menu.Items className="absolute right-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="py-1">
               <Menu.Item>
                 {({ active }) => (
