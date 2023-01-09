@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import Skills3 from "./Skills3";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <Skills3 />
         <Projects />
+        <Footer />
       </main>
     </div>
   );
