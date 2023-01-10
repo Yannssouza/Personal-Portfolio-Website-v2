@@ -1,8 +1,9 @@
 function Footer() {
   const date = new Date;
-  let [year]: [string] = [
+  let year: string =
     date.getFullYear().toString()
-  ];
+  ;
+
   {/*const dateFormat = () => {
     if (month.length < 2) {
       // @ts-ignore
