@@ -1,12 +1,9 @@
 function Footer() {
   const date = new Date;
-  let [month, day, year] = [
-    date.getMonth().toString(),
-    date.getDate().toString(),
+  let [year]: [string] = [
     date.getFullYear().toString()
   ];
-  const dateFormat = () => {
-
+  {/*const dateFormat = () => {
     if (month.length < 2) {
       // @ts-ignore
       month = +month + 1;
@@ -20,7 +17,7 @@ function Footer() {
       return day;
     }
     return [month, "/", day, "/", year];
-  };
+  };*/}
 
   return (
     <footer className="flex justify-center text-center p-6 font-medium dark:text-white">
