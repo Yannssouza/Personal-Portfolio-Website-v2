@@ -1,4 +1,5 @@
 import Dropdown from "./Dropdown";
+import languages from "./languages";
 
 function Nav(props: {
   darkMode: any; changeMode: any; language: any; changeLanguage: any; changeLanguageEN: any;
@@ -8,7 +9,7 @@ function Nav(props: {
     <nav className="pt-10 pb-14 lg:py-8 flex items-center justify-between">
       <h1 className="text-2xl font-custom dark:text-neutral-50">Yann D'Souza</h1>
       <div className="flex flex-row justify-center items-center gap-2 lg:gap-4">
-      <Dropdown language={props.language} changeLanguage={props.changeLanguage} changeLanguageEN={props.changeLanguageEN}/>
+      <Dropdown languages={languages} language={props.language} changeLanguage={props.changeLanguage} changeLanguageEN={props.changeLanguageEN}/>
       <ul className="flex">
         {/*<li
           className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8 dark:from-orange-500 dark:to-amber-500">

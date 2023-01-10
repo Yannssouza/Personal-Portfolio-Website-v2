@@ -3,11 +3,11 @@ import site2 from "./assets/site2.jpg";
 import site3 from "./assets/site3.jpg";
 import site4 from "./assets/site4.jpg";
 
-function Projects() {
+function Projects(props: any) {
   return (
     <section>
       <div className="font-medium my-10">
-        <h3 className="text-2xl py-2 text-cyan-600 dark:text-amber-400">Projects</h3>
+        <h3 className="text-2xl py-2 text-cyan-600 dark:text-amber-400">{props.language ? props.languages.projects.pt : props.languages.projects.en}</h3>
         <p className="leading-8 py-2 text-gray-800 dark:text-neutral-200">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Vivamus <span className="text-cyan-500 dark:text-amber-400">hendrerit</span> semper risus
           at sagittis. Aenean turpis eros, <span className="text-cyan-500 dark:text-amber-400">auctor</span> at tellus

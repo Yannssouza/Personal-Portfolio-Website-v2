@@ -6,6 +6,7 @@ function classNames(...classes: string[]) {
 }
 
 function Dropdown(props: {
+    languages: any;
     language: any;
     changeLanguageEN: MouseEventHandler<HTMLAnchorElement> | undefined; changeLanguage: MouseEventHandler<HTMLAnchorElement> | undefined;
 }) {
@@ -15,7 +16,7 @@ function Dropdown(props: {
       <Menu.Button
         className="inline-flex items-align w-full justify-center rounded-md p-1.5 text-sm font-medium text-gray-700 dark:text-white hover:bg-gray-50 dark:hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-cyan-600 dark:focus:ring-amber-400 focus:ring-offset-2 focus:ring-offset-gray-100">
         <div className="flex-col justify-center items-center">
-          <span>{props.language ? "Português" : "English"}</span>
+          <span>{props.language ? props.languages.dropdown.pt : props.languages.dropdown.en}</span>
           <i className="fa-solid fa-earth-americas mx-1"></i>
           <i className="fa-solid fa-chevron-down fa-xs"></i>
         </div>
