@@ -4,7 +4,7 @@ function Hero(props: any) {
   return (
     <section>
       <div className="">
-        <img src={avatar} className="relative mx-auto w-64 h-64 rounded-full ring-offset-2 ring ring-cyan-600 dark:ring-amber-400 lg:w-48 lg:h-48" alt="rounded avatar" />
+        <img src={avatar} className="relative mx-auto w-64 h-64 rounded-full ring-offset-2 ring ring-cyan-600 dark:ring-offset-neutral-900 dark:ring-amber-400 lg:w-48 lg:h-48" alt="rounded avatar" />
       </div>
       <div className="text-center p-8 font-medium">
         <h2 className="text-3xl md:text-3xl lg:text-5xl py-2 text-cyan-600 dark:text-amber-400">Yann D'Souza</h2>
