@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@supports (-moz-appearance:none) {
-    .mt-1 {
-        margin-top: 20px;
-    }
+@supports (-moz-appearance: none) {
+  .mt-1 {
+    margin-top: 20px;
+  }
 }

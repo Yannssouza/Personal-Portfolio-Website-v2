@@ -1,20 +1,20 @@
 const languageStrings: object = {
   dropdown: {
     en: "English",
-    pt: "Português"
-    },
+    pt: "Português",
+  },
   hero: {
     en: "Developer",
-    pt: "Desenvolvedor"
+    pt: "Desenvolvedor",
   },
   skills: {
     en: "Skills",
-    pt: "Habilidades"
+    pt: "Habilidades",
   },
   projects: {
     en: "Projects",
-    pt: "Projetos"
-  }
+    pt: "Projetos",
+  },
 };
 
 export default languageStrings;

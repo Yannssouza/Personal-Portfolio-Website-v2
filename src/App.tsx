@@ -21,15 +21,19 @@ function App() {
     setLanguage(true);
   };
 
-
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-neutral-900 min-h-screen">
-        <Nav  darkMode={darkMode} changeMode={changeMode} language={language} changeLanguage={changeLanguage}
-             changeLanguageEN={changeLanguageEN} />
+      <main className="min-h-screen bg-white px-10 dark:bg-neutral-900 md:px-20 lg:px-40">
+        <Nav
+          darkMode={darkMode}
+          changeMode={changeMode}
+          language={language}
+          changeLanguage={changeLanguage}
+          changeLanguageEN={changeLanguageEN}
+        />
         <Hero language={language} languages={languages} />
-        <Skills language={language} languages={languages}/>
-        <Projects language={language} languages={languages}/>
+        <Skills language={language} languages={languages} />
+        <Projects language={language} languages={languages} />
         <Footer />
       </main>
     </div>
@@ -37,4 +41,3 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
