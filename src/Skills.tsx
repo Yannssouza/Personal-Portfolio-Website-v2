@@ -7,13 +7,11 @@ function Skills(props: any) {
             ? props.languages.skills.pt
             : props.languages.skills.en}
         </h3>
-        <p className="py-2 leading-8 text-gray-800 dark:text-neutral-200">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus{" "}
-          <span className="text-cyan-500 dark:text-amber-400">hendrerit</span>{" "}
-          semper risus at sagittis. Aenean turpis eros,{" "}
-          <span className="text-cyan-500 dark:text-amber-400">auctor</span> at
-          tellus feugiat, dignissim tempor ipsum.
-        </p>
+        {/*<p className="py-2 leading-8 text-gray-800 dark:text-neutral-200">
+          {props.language
+            ? props.languages.skills.pt
+            : props.languages.skills.en}
+        </p>*/}
       </div>
       <div className="flex flex-wrap justify-center gap-6">
         <div className="flex w-32 flex-col items-center rounded-xl p-6 text-center font-medium shadow-lg dark:shadow-amber-400">
