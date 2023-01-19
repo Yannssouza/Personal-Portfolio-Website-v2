@@ -26,7 +26,7 @@ function Hero(props: any) {
         </p>
       </div>
       <div className=" flex justify-center gap-16 text-gray-600 dark:text-neutral-50">
-        <i className="fa-brands fa-instagram fa-3x"></i>
+        <i className="fa-brands fa-stack-overflow fa-3x"></i>
         <a href="https://www.linkedin.com/in/yann-d-souza-a486a424b/">
           <i className="fa-brands fa-linkedin fa-3x"></i>
         </a>
